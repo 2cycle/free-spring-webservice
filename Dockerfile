@@ -10,7 +10,7 @@ VOLUME /tmp
 EXPOSE 8080
 
 # The application's jar file
-ARG JAR_FILE=build/libs/FreeSpringApp-0.0.1-SNAPSHOT.jar
+ARG JAR_FILE=build/libs/free-spring-webservice-0.0.1-SNAPSHOT.jar
 
 # Add the application's jar to the container
 ADD ${JAR_FILE} to-do-springboot.jar
